@@ -57,10 +57,14 @@ var deudas;
 
 **• Nombre completo (nombre y apellido)**
 var nombreCompleto = nombre + apellido;
+
 console.log(nombreCompleto);
+
 **• Dinero real (dinero ahorrado menos deudas)**
 var dineroReal = dineroAhorrado-deudas;
+
 console.log(dineroReal);
+
 ## 1.3 Funciones
 
 ### 1.3.1 Responde las siguientes preguntas en la sección de comentarios:
