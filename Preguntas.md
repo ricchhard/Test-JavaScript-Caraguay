@@ -55,7 +55,7 @@ var dineroReal = dineroAhorrado-deudas;
 console.log(dineroReal);
 ## 1.3 Funciones
 
-# 1.3.1 Responde las siguientes preguntas en la sección de comentarios:
+### 1.3.1 Responde las siguientes preguntas en la sección de comentarios:
 
 • ¿Qué es una función?
 Es un conjunto de instrucciones unidas en un segmento de codigo que pueden o no devolver un resultado
@@ -67,7 +67,7 @@ Cuando se necesita realizar acciones especificas en ciertas partes del codigo
   El parametro se ingresa a la funcion, como dato entrante, sin emargo el argumento es el dato no ncesariamente declarado.
 
 ## 1.4 Condicionales
-# 1.4.1 Responde las siguientes preguntas en la sección de comentarios:
+### 1.4.1 Responde las siguientes preguntas en la sección de comentarios:
 • ¿Qué es un condicional?
 Es una estructura de control utilizada en programación para tomar decisiones basadas en una condición.
 • ¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?
@@ -78,8 +78,25 @@ Es una estructura de control utilizada en programación para tomar decisiones ba
 sí, es util para ejecutar alguna funcion a partir de una condicion.
 
 ## 1.5 Ciclos
-# 1.5.1 Responde las siguientes preguntas en la sección de comentarios:
+### 1.5.1 Responde las siguientes preguntas en la sección de comentarios:
 • ¿Qué es un ciclo?
+Es un segmento de codigo repetetivo hasta que se cumpla una funcion.
 • ¿Qué tipos de ciclos existen en JavaScript?
+  - for:
+  - while:
+  - do-while
 • ¿Qué es un ciclo infinito y por qué es un problema?
+Es un ciclo que no tiene fin, y puede llegar a colpasar la memorio del dispositovo donde s este ejecutando
 • ¿Puedo mezclar ciclos y condicionales?
+Si, se pude poner condiciones dentro de un ciclo o viceversa.
+
+## 1.6 Listas
+### 1.6.1 Responde las siguientes preguntas en la sección de comentarios:
+• ¿Qué es un array?
+Es una estructura de datos que permite almacenar diferentes datos en una sola varibale
+• ¿Qué es un objeto?
+Es una estructura que agrupa valores y funcionalidades relacionadas en una sola entidad
+• ¿Cuándo es mejor usar objetos o arrays?
+Depende la situacion en la que se necesite.
+• ¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
+Sí, un objeto puede tener datos como arrays, y los arrays tambien pueden contener objetos.
