@@ -43,4 +43,51 @@ if(tipoDeSuscripcion != "Free" && tipoDeSuscripcion != "Basic" &&  tipoDeSuscrip
 console.log("No pertenece a ningun caso");
 }
 
-//1.5.2 
+//1.5.2 Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
+let i = 0;
+while (i < 5) {
+  console.log("El valor de i es: " + i);
+  i++;
+}
+
+let j = 10;
+while (j >= 2) {
+  console.log("El valor de j es: " + j);
+  i--;
+}
+
+//1.5.3 Escribe un código en JavaScript que le pregunte a los usuarios cuánto es 2 + 2. Si responden bien, mostramos un m
+do {
+    res = prompt("Cuanto es 2 +2 ?");
+} while ((res != 4));
+console.log("Respuesta correcta");
+
+//1.6.2 Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
+
+function imprimirElemento(array) {
+    if (array.length > 0) {
+      console.log("El primer elemento del array es: " + array[0]);
+    } else {
+      console.log("El array está vacío.");
+    }
+  }
+  
+  imprimirElemento([1,2,3,4]);
+
+//1.6.3 Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
+imprimirElemento([1,2,3,4]);
+
+  function imprimirElemento(array) {
+    var long=array.lenght;
+    console.log()
+    for (i=0;i<l;i++){
+        console.log("Los elementos son: " + array[i]);
+      } 
+    }
+
+    imprimirElemento([1,2,3,4]);
+
+
+
+
+//1.6.4 Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
