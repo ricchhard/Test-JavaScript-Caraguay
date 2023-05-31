@@ -1,5 +1,6 @@
-# 1.2 Variables y operaciones
-1.2.1 Responde las siguientes preguntas en la sección de comentarios:
+# Preguntas test Javascript
+## 1.2 Variables y operaciones
+### 1.2.1 Responde las siguientes preguntas en la sección de comentarios:
 
 **• ¿Qué es una variable y para qué sirve?**
 
@@ -52,9 +53,9 @@ console.log(nombreCompleto);
 **• Dinero real (dinero ahorrado menos deudas)**
 var dineroReal = dineroAhorrado-deudas;
 console.log(dineroReal);
-1.3 Funciones
+## 1.3 Funciones
 
-1.3.1 Responde las siguientes preguntas en la sección de comentarios:
+# 1.3.1 Responde las siguientes preguntas en la sección de comentarios:
 
 • ¿Qué es una función?
 Es un conjunto de instrucciones unidas en un segmento de codigo que pueden o no devolver un resultado
@@ -63,4 +64,22 @@ Es un conjunto de instrucciones unidas en un segmento de codigo que pueden o no 
 Cuando se necesita realizar acciones especificas en ciertas partes del codigo
 
 • ¿Cuál es la diferencia entre parámetros y argumentos de una función?
-  
+  El parametro se ingresa a la funcion, como dato entrante, sin emargo el argumento es el dato no ncesariamente declarado.
+
+## 1.4 Condicionales
+# 1.4.1 Responde las siguientes preguntas en la sección de comentarios:
+• ¿Qué es un condicional?
+Es una estructura de control utilizada en programación para tomar decisiones basadas en una condición.
+• ¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?
+  - if : Controla una condicion
+  - else-if - controla varias condiciones anidadas 
+  - switch : ejectuta una sola accion segun la condicion 
+• ¿Puedo combinar funciones y condicionales?
+sí, es util para ejecutar alguna funcion a partir de una condicion.
+
+## 1.5 Ciclos
+# 1.5.1 Responde las siguientes preguntas en la sección de comentarios:
+• ¿Qué es un ciclo?
+• ¿Qué tipos de ciclos existen en JavaScript?
+• ¿Qué es un ciclo infinito y por qué es un problema?
+• ¿Puedo mezclar ciclos y condicionales?
