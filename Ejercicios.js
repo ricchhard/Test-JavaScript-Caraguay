@@ -75,12 +75,10 @@ function imprimirElemento(array) {
   imprimirElemento([1,2,3,4]);
 
 //1.6.3 Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
-imprimirElemento([1,2,3,4]);
 
   function imprimirElemento(array) {
-    var long=array.lenght;
-    console.log()
-    for (i=0;i<l;i++){
+    let lg = array.length;
+    for (let i=0;i<lg;i++){
         console.log("Los elementos son: " + array[i]);
       } 
     }
@@ -88,6 +86,18 @@ imprimirElemento([1,2,3,4]);
     imprimirElemento([1,2,3,4]);
 
 
-
-
 //1.6.4 Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
+
+    var perro = {
+        nombre: "Koki",
+        edad: 30,
+        color: "Blanco"
+      };
+
+    function imprimirElementos(objeto) {
+        for (let clave in objeto) {
+          console.log(clave + ": " + objeto[clave]);
+        }
+      }
+
+    imprimirElementos(perro);
